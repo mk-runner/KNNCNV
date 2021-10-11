@@ -37,7 +37,6 @@ labels = vbgmm(scores)
 
 
 # Real Datasets
-The real blood datasets can be obtained in the following 2 ways.
 - the real blood samples: clink this link：https://pan.baidu.com/s/1Ja4XH2wZupeAcwc9qhZn8A extraction code：29to or [1000 Genomes Project](https://www.internationalgenome.org/)
 - The genome-wide samples can be obtained from the [European Genome-Phenome Archive](https://ega-archive.org/)
 
