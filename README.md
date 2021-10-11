@@ -40,7 +40,7 @@ labels = vbgmm(scores)
 The real blood datasets can be obtained in the following 2 ways.
 - clink this link：https://pan.baidu.com/s/1Ja4XH2wZupeAcwc9qhZn8A extraction code：29to
 - [1000 Genomes Project](https://www.internationalgenome.org/)
-- The genome-wide samples can be obtained from the [European Genome-Phenome Archive] (https://ega-archive.org/)
+- The genome-wide samples can be obtained from the [European Genome-Phenome Archive](https://ega-archive.org/)
 
 # Required Dependencies
 1. Python 3.8            
