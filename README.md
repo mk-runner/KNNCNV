@@ -6,11 +6,7 @@ KNNCNV: A k-nearest neighbor based method for detection of copy number variation
    
 (1) open the file `knncnv.py`, and modify the variables `bam_path`, `fa_path` inside; </br>
 
-Note that the *.fa file is the reference genome that can be in the fa format or the fasta format. </br>
-The ground truth file is the confirmed CNVs of the *.bam file, which can be obtained from the </br>
-[database of genomic variants](http://dgv.tcag.ca/dgv/app/home) and help us calculate some performance metrics, such as precision, sensitivity, and F1-score. </br>
-Additionally, for the six real blood samples in Section 3.2.1, the *.bam file can be obtained from the [1000 Genomes Project](http://www.1000genomes.org). </br>
-The three cancer samples in Section 3.2.2 can be downloaded from the [European Genome-Phenome Archive](https://ega-archive.org/).
+Note that the *.fa file is the reference genome that can be in the fa format or the fasta format. The ground truth file is the confirmed CNVs of the *.bam file, which can be obtained from the [database of genomic variants](http://dgv.tcag.ca/dgv/app/home) and help us calculate some performance metrics, such as precision, sensitivity, and F1-score. Additionally, for the six real blood samples in Section 3.2.1, the *.bam file can be obtained from the [1000 Genomes Project](http://www.1000genomes.org). The three cancer samples in Section 3.2.2 can be downloaded from the [European Genome-Phenome Archive](https://ega-archive.org/).
    
 ```python
 if __name__ == '__main__':
