@@ -62,7 +62,7 @@ def save_result(CNV_chr, CNVstart, CNVend, CNVRD, CNVtype, save_name=None):
     df['chr'] = CNV_chr
     df["start"] = CNVstart
     df["end"] = CNVend
-    df["type"] = CNVtype
+    df["variant type"] = CNVtype
     df["RD"] = CNVRD
     if save_name is None:
         df.to_csv("detail_result.txt", index=False)
