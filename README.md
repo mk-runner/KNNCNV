@@ -29,7 +29,7 @@ if __name__ == '__main__':
    (3) check the `knncnv` function in the file `knncnv.py` for more information;
    
    (4) output of the entire process (e.g., output of NA12878.txt). </br>
-The output format is a txt text delimited by commas, which represents the detained descriptions of CNVs predicted by KNNCNV. More specifically, the first line of the text is the column descriptions including chr, start, end, variant type, and RD, where chr denotes the chromosome ID, and start and end represent the start and end positions of predicted CNVs, respectively. The variant type contains deletion and duplication, and the RD is the read depth of predicted CNVs.
+The output format is a txt text delimited by commas, which represents the detained descriptions of CNVs predicted by KNNCNV. More specifically, the first line of the text is the column descriptions including chr, start, end, variant type, and RD, where chr denotes the chromosome ID, and start and end represent the start and end positions of declared CNVs, respectively. The variant type contains deletion and duplication, and the RD is the read depth of declared CNVs.
 
 2. API only for the VBGMM
 
