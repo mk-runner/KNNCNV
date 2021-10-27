@@ -26,7 +26,10 @@ if __name__ == '__main__':
 ```
    (2) run the `knncnv.py`;
    
-   (3) check the `knncnv` function in the file `knncnv.py` for more information.
+   (3) check the `knncnv` function in the file `knncnv.py` for more information;
+   
+   (4) output of the entire process (e.g., output of NA12878.txt).
+   The output format is a txt text delimited by commas, which represents the detained descriptions of CNVs predicted by KNNCNV. More specifically, the first line of the text is the column descriptions including chr, start, end, variant type, and RD, where chr denotes the chromosome ID, and start and end represent the start and end positions of predicted CNVs, respectively. The variant type contains deletion and duplication, and the RD is the read depth of predicted CNVs.
 
 2. API only for the VBGMM
 
@@ -36,7 +39,6 @@ from ihybcnv import vbgmm
 labels = vbgmm(scores)
 # 0 stands for inliers and 1 for outliers(CNVs).
 ```
-
 
 # Real Datasets
 - the real blood samples: clink this link：https://pan.baidu.com/s/1Ja4XH2wZupeAcwc9qhZn8A extraction code：29to or [1000 Genomes Project](https://www.internationalgenome.org/)
