@@ -18,14 +18,14 @@ The experimental result on the NA12878 is NA12878.txt that is a txt text delimit
 
 ## 3. API
 
-- [ ] ### API for the entire process
+### 1) API for the entire process
 
 - open the file `knncnv.py` and modify the variables `bam_path`, `fa_path` inside; 
 
 ```python
 if __name__ == '__main__':
     # Local path of the *.bam file
-    bam_path = r"/real_data/NA12878.bam"
+    bam_path = r"/real_data/NA12878.chrom21.SLX.maq.SRP000032.2009_07.bam"
     
     # Local path of the *.fasta file or the *.fa file
     fa_path = r"./data/chr21.fa"
@@ -43,7 +43,8 @@ if __name__ == '__main__':
 
 - output of the entire process is NA12878.txt.
 
-- [ ] ### API only for the VBGMM
+
+### 2) API only for the VBGMM
 
 ```python
 from ihybcnv import vbgmm
