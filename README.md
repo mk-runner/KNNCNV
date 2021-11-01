@@ -8,7 +8,7 @@ KNNCNV: A k-nearest neighbor based method for detection of copy number variation
 
 ## 1. Input
 
-- bam_path (str, for the six real blood samples in Section 3.2.1, the *.bam file can be obtained from the [1000 Genomes Project](http://www.1000genomes.org). The three cancer samples in Section 3.2.2 can be downloaded from the [European Genome-Phenome Archive](https://ega-archive.org/). Additionally, these *.bam files can be download from the [Baidu Netdisk](https://pan.baidu.com/s/1Ja4XH2wZupeAcwc9qhZn8A), and its extraction code is `29to`).
+- bam_path (str, for the six real blood samples in Section 3.2.1, the *.bam file can be obtained from the [1000 Genomes Project](http://www.1000genomes.org). The three cancer samples in Section 3.2.2 can be downloaded from the [European Genome-Phenome Archive](https://ega-archive.org/). Additionally, these *.bam files can be download from the [Baidu Netdisk](https://pan.baidu.com/s/1lXWkYQEBTqomKgYhAE1zCw), and its extraction code is `33dd`).
 - fa_path (str, the reference genome that can be in the fa format or the fasta format).
 - gt_path (str, optional, the confirmed CNVs file of the *.bam file. if this file is provided, some performance metrics including precision and sensitivity can be calculated. Note that the file can be obtained from the  [database of genomic variants](http://dgv.tcag.ca/dgv/app/home)).
 
