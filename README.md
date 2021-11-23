@@ -47,7 +47,7 @@ if __name__ == '__main__':
 ### 2) API only for the VBGMM
 
 ```python
-from ihybcnv import vbgmm
+from knncnv import vbgmm
 
 labels = vbgmm(scores)
 # 0 stands for inliers and 1 for outliers(CNVs).
