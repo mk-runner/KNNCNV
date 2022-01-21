@@ -71,3 +71,24 @@ Python 3.8
 R 3.4.4
 
 - DNAcopy
+
+# Citing KNNCNV
+
+[KNNCNV](https://www.frontiersin.org/articles/10.3389/fcell.2021.796249/full) is published in [Frontiers in Cell and Developmental Biology](https://www.frontiersin.org/journals/cell-and-developmental-biology). If you use this code in your work, we would like to cite the following paper.
+
+```
+@article {PMID:35004691,
+	Title = {KNNCNV: A K-Nearest Neighbor Based Method for Detection of Copy Number Variations Using NGS Data},
+	Author = {Xie, Kun and Liu, Kang and Alvi, Haque A K and Chen, Yuehui and Wang, Shuzhen and Yuan, Xiguo},
+	DOI = {10.3389/fcell.2021.796249},
+	Volume = {9},
+	Year = {2021},
+	Journal = {Frontiers in cell and developmental biology},
+	ISSN = {2296-634X},
+	Pages = {796249},
+	URL = {https://europepmc.org/articles/PMC8728060},
+}
+
+
+```
+
